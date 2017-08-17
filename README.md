@@ -79,7 +79,7 @@ libiconv.2.dylib添加的时候可能要注意一点,要点加号,Add Other...,�
 - clean项目
 - build项目
 
-demo地址
+[简书地址](http://www.jianshu.com/u/fc12eeedb47d)
 
 ---- 
 
