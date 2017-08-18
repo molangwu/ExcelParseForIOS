@@ -50,7 +50,7 @@
         _colArr = [NSMutableArray array];
         currentRowNum = 0;
         ZSheet *sheet = self.sheetArr[i];
-        NSString *sheetPath = [NSString stringWithFormat:@"%@/xl/worksheets/%@.xml",destinationPath,sheet.name];
+        NSString *sheetPath = [NSString stringWithFormat:@"%@/xl/worksheets/%@.xml",destinationPath,sheet.name.lowercaseString];
         
         self.parseFilePath = sheetPath;
         self.xmlParser.delegate = self;
